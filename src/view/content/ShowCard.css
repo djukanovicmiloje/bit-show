@@ -1,0 +1,12 @@
+.showCard img {
+  width: 300px;
+}
+.showCard p {
+  font-weight: bold;
+  text-align: center;
+}
+#content {
+  display: flex;
+  width: 1200px;
+  flex-wrap: wrap;
+}

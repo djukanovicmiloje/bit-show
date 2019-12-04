@@ -10,7 +10,7 @@ async function fetchShows() {
         show.id,
         show.name,
         show.genres[0],
-        show.image.original,
+        show.image ? show.image.original : "https://via.placeholder.com/150",
         show.summary,
         show.externals.imdb
       )
